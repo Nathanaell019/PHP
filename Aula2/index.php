@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula2</title>
+    <title>Aula 2</title>
 </head>
 
 <body>
@@ -54,8 +54,23 @@
     $a += $b;   # $a = $a + $b
     $b = $a - $b;
     $a -= $b; # $a = $a - $b
-
+    
     echo "Valores trocados: a = $a, b = $b";
+
+    echo "Exemplo de resto da divisão<br>";
+    $divisor = 20;
+    $quociente = 2;
+    $resto = $divisor % $quociente;
+    echo "O resto da divisão de $divisor pro $quociente é: $resto";
+    echo $traco;
+
+    echo "Exemplo de operador de potenciação<br>";
+    $base = 2;
+    $expoente = 3;
+    $potencia = $base ** $expoente;
+    echo "$base elevado a $expoente é: $potencia";
+    echo $traco;
+
 
     ?>
 </body>
